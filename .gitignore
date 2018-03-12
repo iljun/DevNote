@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 # Created by https://www.gitignore.io/api/node,gitbook,intellij+all
 
 ### GitBook ###
+=======
+>>>>>>> 2c2a803dadf2cbfed6b3c2b8b34971b54a42e76c
 # Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
@@ -17,6 +20,7 @@ _book
 # eBook build output
 *.epub
 *.mobi
+<<<<<<< HEAD
 *.pdf
 
 ### Intellij+all ###
@@ -141,3 +145,6 @@ typings/
 
 
 # End of https://www.gitignore.io/api/node,gitbook,intellij+all
+=======
+*.pdf
+>>>>>>> 2c2a803dadf2cbfed6b3c2b8b34971b54a42e76c
