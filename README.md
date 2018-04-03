@@ -2,7 +2,7 @@
 
 ## 기본 상식
 
-[Compile Language & Interpreted Language](common/Complie&Interpreted Language/README.md)
+[Compile Language & Interpreted Language](common/Complie&InterpretedLanguage/README.md)
 
 [Build & Compile](common/Build&Compile/README.md)
 
