@@ -49,18 +49,33 @@ OAuth 1.0a의 signature 생성이 필요없다. signature를 생성하지 않고
 
 ### 용어
 ```
-    * Resource Owner : 사용자 정확하게는 서버 관리자이다.
-        Ex) 페이스북 서버
-    * Resource server : API Server 
-        Ex) 페이스북 API Server
-    * Client(Application) : API를 이용하려는 사용자(Application) 
-        Ex) 페이스북 API를 이용하려는 사용자 및 Application
+    * Resource Owner : 사용자 
+    * Resource server : API Server
+    * Client(Application) : 써드파티 Application
+        * client는 기본적으로 Confidential Client, public Client로 나뉜다.
+            * Confidential Client : 웹 서버가 API를 호출하는 경우 client증명서(client_secret)을 안전하게 보관할수 있는 client
+            * Public Client : 브라우저기반 Application이나 모바일 Application같은 경우 client 증명서를 안전하게 보관할수없는 client를 의미 이러한 경우 보통 redirect_url을 이용한다.
     * Authorization Server : 인증서버 
-        Ex) 페이스북 인증 서버
         * Authorization Server 와 Resource Server는 같은 Server일 수도 있다.
+        
+    * GrantType
+        * Authorization Code Grant(권한코드 발급 방식) : 웹서버에서 API를 호출하는 등의 시나리오에서 Confidentail Client가 사용하는 방법이다.
+                                                      public Client의 종류인 브라우저기반 Application이나 모바일 Application의 경우 사용한다.
+                                                      로그인시 Url의 parameter로 response_type=code를 넘겨준다.
+        * Implicit Grant : Public Client인 브라우저 기반의 Application이나 모바일 Application에서 이 방식을 사용하면 된다. Client 증명서를 사용할 필요가 없으며 실제로 OAuth 2.0에서 가장 많이 사용되는 방식이다.
+                           로그인시에 페이지 URL에 response_type=token 라고 넘긴다.
+        * Password Credentials Grant : 이 방식은 2-legged방식이다. Client에 id/password를 저장해놓고 사용하는 방식이다.
+                                       Client를 믿을수 없을때는 사용하기 부적합하다.
+                                       로그인시 POST로 grant_type=password라고 넘긴다.
+        * Client Credentials Grant : application이 Confidential Client일떄 id와 secrect값을 사용해 인증하는 방식이다.
+                                     로그인시 POST로 grant_type=client_credentials라고 넘긴다.
 ```
 
-
+### 중요 개념
+```
+    * AccessToken : API를 사용하는 사용자의 id와 password를 저장하지 않고 인증토큰으로 대처하는 방법, 필요한 기능(권한)만 제공
+                    AccessToken은 유효기간을 지닌다. 이 기간을 짧게 설정하고 기간이 만료되면 refreshToken을 이용해 token이용시간을 연장한다.
+```
 ## 작동 방법
 1. client는 Resource Owner에게 권한을 요청한다.
 2. Resource Owner는 다양한 client환경에 걸맞는 인증 및 권한 부여 방식을 제공한다.
