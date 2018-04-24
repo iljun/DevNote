@@ -189,9 +189,17 @@
 
 [OSI 7 layer](network/OSI/README.md)
 
+[IP](network/ip/README.md)
+
+[Subnet Mask](network/subnetMask/README.md)
+
+[Router](network/router/README.md)
+
 [TCP 3-way-handShake](network/3-way-handshake/README.md)
 
 [TCP & UDP](network/TCP&UDP/README.md)
+
+[Browser Operation process](network/browser/README.md)
 
 [Http Method](network/HttpMethod/README.md)
 

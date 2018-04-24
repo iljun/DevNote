@@ -13,7 +13,7 @@ TCP/IP를 사용하지 않고 CSMA/CD 프토콜을 사용하는 것이다.
 
 우리나라의 90% 정도는 Ethernet방식을 사용한다.
 
-### CSMA/CD (Carrier Sense Multiple Access/Collision Detection)?
+### CSMA/CD (Carrier Sense Multiple Access/Collision Detection)
 Ethernet에서 통신을 하려면 지금 네트워크 자원이 사용중인지를 먼저 판단해야한다.
 
 만약 네트워크 자원이 사용중이 아니라면 바로 네트워크에 자원을 실어 보내는 방법이다.
