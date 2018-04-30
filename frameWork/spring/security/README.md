@@ -28,6 +28,9 @@
 * Authentication을 보관하는 역할
 * 현재 사용자에 대한 Authentication을 구할때 사용 
 
+### SecurityContextHolder
+* SecurityContext를 보관하는 용도
+
 ### UsernamePasswordAuthenticationToekn
 * 인증 객체이다.
 * Java Doc를 참조하면 constructor가 2개이다.

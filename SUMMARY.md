@@ -14,6 +14,8 @@
     * [OOP](common/oop/README.md)
     * [SOLID](common/SOLID/README.md)
     * [Synchronous&Asynchronous](common/Synchronous&Asynchronous/README.md)
+    * [XSS](common/xss/README.md)
+    * [CSRF](common/csrf/README.md)
 * [Language]()
     * [Java]()
         * [advantages & disadvantages](language/java/advantagesAndDisadvantages/README.md)
