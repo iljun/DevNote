@@ -53,3 +53,7 @@
 
 ### SecurityFilterChain
 //추후 추가 
+
+### 동적으로 URL접근 권한 관리하기
+1. Spring Security는 FilterInvocationSecurityMetadataSource를 통해 URL/Method에 접근 권한을 확인한다.
+2. FilterInvocationSecurityMetadataSource에서 얻어온 ROLE과 사용자의 ROLE을 이용해 AccessVote를 진행한다.
