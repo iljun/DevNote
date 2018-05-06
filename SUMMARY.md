@@ -85,6 +85,7 @@
     * [join](dataBase/join/README.md)
     * [Transaction](dataBase/transaction/README.md)
     * [NoSql](dataBase/noSql/README.md)
+    * [Sharding](dataBase/sharding/README.md)
 * [DesignPattern]()
     * [Factory Pattern](designPattern/Factory/README.md)
     * [singleTon Pattern](designPattern/singleTon/README.md)

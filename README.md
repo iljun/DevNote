@@ -169,6 +169,8 @@
 
 [NoSql](dataBase/noSql/README.md)
 
+[Sharding](dataBase/sharding/README.md)
+
 ## Design Pattern
 
 [Factory Pattern](designPattern/Factory/README.md)
