@@ -222,6 +222,13 @@
 [Oauth](network/Oauth/README.md)
 
 ## OS
+[OS](os/README.md)
+
+[OsFunction](os/osFunction/README.md)
+
+[MultiProgrammingSystem](os/multiProgaming/README.md)
+
+[TimeSharingSystem](os/TimeSharingSystem/README.md)
 
 [rateCondition](os/rateCondition/README.md)
 
