@@ -1,4 +1,4 @@
-#Broswer Operation process
+#Browser Operation process
 
 1. Browser에 url을 입력
 
@@ -14,18 +14,12 @@
         * .com nameServer에 다시 질의를 보내면 naver.com에 대한 ip주소를 반환
         * naver.com naverServer에 다시 질의를 한다면 www.naver.com에 대한 ip주소를 반환
    * DNS Server또한 계층화 되어있기 때문에 여러번 질의를 반복한다.
-   
-5. Browser는 IP주소를 기반으로 해당 웹서버가 존재하는 서버와 통신 
-    (IP주소로 연결되는 방법 추후 추가)
-<!-- 
-    TODO IP주소로만 연결되는 방법 정확히 찾기 --> 라우터끼리 연결이 되서 데이터를 보내는듯
--->
 
-6. IP주소르 알아낸후 Http Request를 위해, 3 way handShake가 일어나고 서로간의 데이터 교환이 끝난후 
+5. IP주소를 알아낸후 Http Request를 위해, 3 way handShake가 일어나고 서로간의 데이터 교환이 끝난후 
     
     4 way handShake가 일어나고 통신이 끝기게 된다.
     
-7. Browser는 Http Reponse에 들어있는 html을 렌더시켜 화면에 그려준다.
+6. Browser는 Http Reponse에 들어있는 html을 렌더시켜 화면에 그려준다.
 
 ### 용어 정리    
 ```
