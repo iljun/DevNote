@@ -9,7 +9,7 @@ String class는 immutable한 class입니다.
 StringBuilder와 StringBuffer는 사용법은 같지만 Thread에 동기화 여부가 차이점입니다.
 
 StringBuilder class는 Thread에 동기화가 되어있지 않고,
-StringBuffer class느 Thread에 동기화가 되어있습니다.
+StringBuffer class는 Thread에 동기화가 되어있습니다.
 
 jdk 1.5버전 이후에는 String class의 +연산시 내부적으로 StringBuilder class를 이용한 구현으로 변경되어있습니다.
 

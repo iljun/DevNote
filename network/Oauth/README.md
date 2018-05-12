@@ -67,7 +67,7 @@ OAuth 2.0도 2-legged모델도 지원하기는하나 가장 기본은 3-legged �
                     AccessToken은 유효기간을 지닌다. 이 기간을 짧게 설정하고 기간이 만료되면 refreshToken을 이용해 token이용시간을 연장한다.
     * RefreshToken : 클라이언트가 같은 access Token을 사용하게 되면 결국은 해킹의 위험이 높아진다.
                     accessToken의 만료기간을 가능한 짧게하고 만료가 되면은 refreshToekn으로 accessToken을 새로 갱신하는 방법.
-    * scopr : client의 ㅅ\권한을 설정하기 위한 기능이다. 로그인시 여러개의 권한을 요청할때 scope=... 이러한식으로 넘겨준다.
+    * scope : client의 권한을 설정하기 위한 기능이다. 로그인시 여러개의 권한을 요청할때 scope=... 이러한식으로 넘겨준다.
 ```
 
 ##### Client

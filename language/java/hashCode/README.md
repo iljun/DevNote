@@ -4,7 +4,7 @@ Object의 hashCode는 heap에 생성되는 객체의 주소를 바탕으로 생�
 
 Java 기본객체인 Integer,String 같은 클래스들은 모두 hashCode와 equals가 정의되어있다.
 
-hashCode는 해쉬테이블같은 자료구조를 사용하기 위한 하나의 인덱스라고 할수있다.
+hashCode는 해시테이블같은 자료구조를 사용하기 위한 하나의 인덱스라고 할수있다.
 
 그렇기 때문에 직접 생성한 객체에서는 hashCode를 재정의 해주어야한다.
 

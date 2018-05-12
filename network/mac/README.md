@@ -1,4 +1,4 @@
-# MAC(Media Access Control)
+# MAC(Media Access Control Address)
 Network상에서 서로간 구분할 일종의 주소가 필요하다.
 
 이러한 역할을 하는게 MAC이다.

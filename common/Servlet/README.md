@@ -16,3 +16,10 @@ Client의 Request를 받아주고 Response를 보낼수 있도록 웹 서버와 
 #### DD(Deployment Descripot) : 배포 서술자
 웹 컨테이너에게 지금 접속한 URL 주소가 서블릿 요청임을 인식하고 그 서블렛 클래스가 어디에 위치하는지 서술하는 파일
 Tomcat의 경우는 web.xml이다.
+
+# Tomcat의 Thread
+Tomcat은 servlet Container로 request가 들어올때마다 Thread를 생성하지 않는다.
+
+Thread생성 비용이 생각보다 만만치 않기 때문에 미리 200개 정도의 Thread를 미리 생성해두고 돌려가며 쓴다.
+
+나중에 sourceCode를 열어봐야겠다.
