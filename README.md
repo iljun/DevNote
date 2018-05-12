@@ -92,6 +92,8 @@
 
 [lambda](language/java/java8/lambda/README.md)
 
+[persistence](language/java/persistence/README.md)
+
 #### JavaScript
 
 [Ajax](language/javascript/Ajax/README.md)
