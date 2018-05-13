@@ -31,7 +31,7 @@ Ethernet은 Collision이 일어나지 않게하기 위해 점검을 하는데 �
 
 만약 이러한 행위가 15번이 일어난다면 통신이 실패했다고 한다.
 
-# TokenRing?
+# TokenRing
 Ethernet과 다른 방식으로 Token이란것을 소유하고 있을때만 네트워크로 데이터를 전송가능하다.
 
 TokenRing의 특징을 Collision이 일어나지 않는다는 점이다.

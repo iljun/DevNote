@@ -9,7 +9,7 @@ Object에 정의되어있는 Method이다.
 
 이 Class Type의 Object는 바로 GC가 되지 않는다.
 
-대신 Finaliztion Queue에 들어간후 Finalizer에 의해 정리된다.
+대신 Finaliztaion Queue에 들어간후 Finalizer에 의해 정리된다.
 
 Finlizer는 Object의 finalize를 실행한 다음 메모리 정리 작업을 시작하게 된다.
 
