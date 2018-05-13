@@ -48,6 +48,8 @@
             * [optional](language/java/java8/optional/README.md)
             * [DefaultMethod](language/java/java8/defaultMethod/README.md)
         * [persistence](language/java/persistence/README.md)
+        * [finalize](language/java/finalize/README.md)
+        * [referenceObject](language/java/referenceObject/README.md)
     * [JavaScript]()
         * [Ajax](language/javascript/Ajax/README.md)
         * [FrameWork & Library]()
