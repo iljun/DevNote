@@ -23,3 +23,10 @@ Tomcat은 servlet Container로 request가 들어올때마다 Thread를 생성하
 Thread생성 비용이 생각보다 만만치 않기 때문에 미리 200개 정도의 Thread를 미리 생성해두고 돌려가며 쓴다.
 
 나중에 sourceCode를 열어봐야겠다.
+
+## WEb 클래스 로더
+JVM과 마찬가지로 WAR를 로딩하는 클래스 로더가 존재한다.
+
+JVM클래스 로더와 비슷하나 로딩 우선순위가 일반적인 상위 클래스 로더보다 WEB-INF/classes와 WEB-INF/lib 디렉토리를 우선적으로 
+
+로딩할 수 있도록 할 수 있다.
