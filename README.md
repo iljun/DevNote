@@ -248,6 +248,8 @@
 
 [pageReplacement](os/pageReplacement/README.md)
 
+[memorySegment](os/memorySegment/README.md)
+
 ## FrameWork
 
 #### Spring FrameWork

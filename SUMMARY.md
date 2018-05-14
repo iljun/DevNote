@@ -124,6 +124,7 @@
     * [Mutex&Semaphore](os/Mutex&Semaphore/README.md)
     * [fragmentation](os/fragmentation/README.md)
     * [pageReplacement](os/pageReplacement/README.md)
+    * [memorySegment](os/memorySegment/README.md)
 * [FrameWork]()
     * [Spring]()
         * [SpringMechanism](frameWork/spring/mechanism/README.md)
