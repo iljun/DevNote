@@ -24,3 +24,15 @@ Browser의 주요 기능은 사용자가 선택한 자원에 대하여 서버에
     3. Server는 Browser의 요청을 승인하고 Http 200 Message를 전송한다. 이후 서버는 Browser에게 패킷을 전송.
     4. Browser는 패킷을 조립해 사용자 UI를 화면에 그린다.
 ```
+
+
+## Browser의 웹페이지 로딩을 빠르게 하는 방법 
+1. CDN을 사용 
+2. css는 header 태그 내부에 삽입
+3. script는 맨 마지막에 삽입 
+4. 여러개의 css파일과 js파일이 아닌 하나의 js파일과 css파일로 합쳐서 전송
+5. HTTP 요청을 최소화한다.
+6. javascript와 css파일은 외부 파일로 구성해 브라우저에 캐시되도록 만들어 빠르게 로딩해라.
+7. javaScript와 css를 축소화해서 파일의 크기를 줄여라
+8. Ajax를 캐싱할수 있도록 만들어라
+9. iframe을 최소화한다.
