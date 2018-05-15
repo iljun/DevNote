@@ -5,6 +5,23 @@
 가장 큰 차이점은 SVN은 중앙 집중식 소스코드 관리이며 , Git은 분산 소스코드 관리이다.
 Git은 중앙 저장소의 문제가 생겨도 분산되어 있는 로컬 저장소를 이용하여 중앙저장소를 복구 가능하다.
 
+## Git의 흐름
+1. Local repository에서 작업한 내용을 commit후 Remote repository로 push
+2. remote repository에 변경된 사항을 협업을 하는 단위끼리 Pull로 내려받는다.
+
+## Git fork
+* Upstream Remote Repository : 개발자들이 공유하는 저장소, 최신 소스코드가 저장되어 있는 원격 저장소
+* Origin Remote Repository : Upstream Repository를 Fork한 원격 개인 저장소
+* Local Repository : 개인 저장소
+
+개인 repository로 fork를 한다면 그 저장소는 Origin Remote repository가 된다.
+
+이때 Local repository에서 작업을 완료한 후 
+
+origin remote repository로 push를 한다 
+
+이후 upstream remote repository에 pull request를 이용해 반영한다.
+
 ## Git의 장점
 1. 병렬 개발이 가능해지며, 버전관리가 용이하다.
 2. 수정 내역이 commit단위로 가능하다. 또한 commit기록이 남아있기 때문에 이전의 소스코드로 언제든지 돌아갈수있다.
