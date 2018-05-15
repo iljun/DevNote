@@ -18,6 +18,7 @@
     * [CSRF](common/csrf/README.md)
     * [Zookeeper](common/zooKeeper/README.md)
     * [MSA](common/msa/README.md)
+    * [platform](common/platform/README.md)
 * [Language]()
     * [Java]()
         * [advantages & disadvantages](language/java/advantagesAndDisadvantages/README.md)

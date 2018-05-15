@@ -16,11 +16,11 @@ TCP/IP 프로토콜을 이용해 데이터 전송 전에 상대방의 컴퓨터�
 # 4 way-handShake
 세션을 종료하기 위한 과정
 
-1단계 : Client가 세션을 종료하겠다는 FIN 플래그를 Server에 전송.
+1단계 : Client가 세션을 종료하겠다는 FIN 플래그를 Server에 전송. 자신은 FIN_WAIT_1 상태로 대기한다.
 
-2단계 : Server는 ACK 응답을 보내고 자신의 통신이 끝날때까지 TIME_WAIT 상태가 된다.
+2단계 : Server는 ACK 응답을 보내고 자신의 통신이 끝날때까지 TIME_WAIT 상태가 된다. ACK 응답을 받은 클라이언트는 FIN_WAIT_2 상태로 변화하고 대기한다.
 
-3단계 : Server가 통신이 끝나면 연결이 종료되었다는 FIN 플래그를 Client에게 전송
+3단계 : Server가 통신이 끝나면 연결이 종료되었다는 FIN 플래그를 Client에게 전송, 자신은 LAST_ACK 상태로 변한다.
 
 4단계 : Client는 확인했다는 ACK응답을 Server로 전송
 

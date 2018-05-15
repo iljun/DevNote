@@ -36,6 +36,8 @@
 
 [MSA](common/msa/README.md)
 
+[platform](common/platform/README.md)
+
 ## Language
 
 #### Java

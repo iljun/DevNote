@@ -1,5 +1,5 @@
 # Https(Http Secure)
-보안에 취약한 Http와는 다르게 통신을 암호하는 프토코롤
+보안에 취약한 Http와는 다르게 통신을 암호하는 프로토콜
 
 Http + SSL or TLS 의 개념이다.
 
