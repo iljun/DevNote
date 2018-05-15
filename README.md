@@ -254,6 +254,8 @@
 
 [pageReplacement](os/pageReplacement/README.md)
 
+[virtualMemory](os/virtualMemory/README.md)
+
 [memorySegment](os/memorySegment/README.md)
 
 [Linux](os/linux/README.md)

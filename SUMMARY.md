@@ -126,6 +126,7 @@
     * [rateCondition](os/rateCondition/README.md)
     * [Mutex&Semaphore](os/Mutex&Semaphore/README.md)
     * [fragmentation](os/fragmentation/README.md)
+    * [virtualMemory](os/virtualMemory/README.md)
     * [pageReplacement](os/pageReplacement/README.md)
     * [memorySegment](os/memorySegment/README.md)
     * [Linux](os/linux/README.md)
