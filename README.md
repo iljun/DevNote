@@ -106,6 +106,8 @@
 
 [closure](language/javascript/closure/README.md)
 
+[prototype](language/javascript/prototype/README.md)
+
 ##### FrameWork & Library
 
 [Angular](language/javascript/framework&library/Angular/README.md)
