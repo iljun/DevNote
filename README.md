@@ -104,6 +104,8 @@
 
 [Ajax](language/javascript/Ajax/README.md)
 
+[closure](language/javascript/closure/README.md)
+
 ##### FrameWork & Library
 
 [Angular](language/javascript/framework&library/Angular/README.md)

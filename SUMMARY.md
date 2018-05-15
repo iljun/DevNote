@@ -53,6 +53,7 @@
         * [reflection](language/java/reflection/README.md)
     * [JavaScript]()
         * [Ajax](language/javascript/Ajax/README.md)
+        * [closure](language/javascript/closure/README.md)
         * [FrameWork & Library]()
             * [Angular](language/javascript/framework&library/Angular/README.md)
             * [React](language/javascript/framework&library/React/README.md)
