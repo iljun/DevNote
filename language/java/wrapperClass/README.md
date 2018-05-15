@@ -5,4 +5,4 @@
 
 컴파일러가 기본자료형을 wrapper class로 변환시키는것을 Auto-boxing이라고 칭합니다.
 
-반대로 wrapper class를 기보자료형으로 변환시켜주는것을 un-boxing이라고 합니다.
+반대로 wrapper class를 기본 자료형으로 변환시켜주는것을 un-boxing이라고 합니다.

@@ -17,7 +17,13 @@ CSRF(Cross Site Request Foregery)는 웹 애플리케이션에서 정상적인 �
 2. CSRF 토큰을 사용한다.
 ```
 
+### CSRF 토큰
+사용자의 session에 임의의 난수값을 저장해 놓은다음 
 
+요청이 들어올때마다 session의 난수값과 넘어온 값의 난수값이 일치하지않으면 실행하지 않는 방법이다.
+
+BackEnd에서 요청을 받을때마다 세션에 저장된 토큰값과 요청 파라미터의 session값에 토큰값이 일치하는지 검증하는 방법
+ 
 ## XSS와 CSRF의 차이점
 XSS는 주로 공격대상이 Client이다. 
 
