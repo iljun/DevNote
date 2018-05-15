@@ -14,9 +14,9 @@ Hibernate Shards나 CUBRID SHARD, Spock Proxy, GIzzard는 애플리케이션 서
 nStore, MongoDB는 데이터베이스 자체에서 샤딩기능을 제공하기도 한다.
 
 ## 수직분할(Vertial Partitioning)
-특정한 key값을 범위별로 나누는 방법이다.
+하나의 테이블을 쪼개서 따로 저장하는 방식이다.
 
-연령대로 치자면 10대, 20대, 30대 이런방식으로 데이터베이스를 나누는것이다.
+원래 하나의 테이블을 나누어 다른 DB에 저장하는 방식이다.
 
 ## 수평분할(Horizontal Partitioning)
 연속된 key값이 아닌 특정한 category와 같은 종류에 따라 데이터를 수평으로 분리하는것 
@@ -24,6 +24,10 @@ nStore, MongoDB는 데이터베이스 자체에서 샤딩기능을 제공하기�
 국가별로 나눈다면 한국,미국,중국으로 나눌수 있다.
 
 샤딩은 바로 수평분할을 가리키는 말이다.
+
+원래 하나의 스키마를 복제해 여러개로 만들고 
+
+특정한 key값을 기준으로 다른 스키마에 저장하는 방식이다.
 
 #### 한계
 ###### range-based sharding
