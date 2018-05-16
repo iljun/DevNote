@@ -194,6 +194,8 @@
 
 [Sharding](dataBase/sharding/README.md)
 
+[groupBy](dataBase/groupBy/README.md)
+
 ## Design Pattern
 
 [Factory Pattern](designPattern/Factory/README.md)
