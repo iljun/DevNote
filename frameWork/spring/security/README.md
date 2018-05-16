@@ -31,7 +31,7 @@
 ### SecurityContextHolder
 * SecurityContext를 보관하는 용도
 
-### UsernamePasswordAuthenticationToekn
+### UsernamePasswordAuthenticationToken
 * 인증 객체이다.
 * Java Doc를 참조하면 constructor가 2개이다.
     * 하나는 인증 전 객체를 생성(parameter 2개)

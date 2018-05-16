@@ -12,7 +12,7 @@ servlet을 중심으로 filter는 servlet이전의 요청과 servlet을 통해 �
 
 interceptor는 servlet을 거치고 들어오는 요청과 servlet으로 나가는 요청을 가로채 어떠한 작업을 실행한다.
 
-AOP는 filter - servelt - interceptor를 지나 코드 내부에서 작동하는 개념이다.
+AOP는 filter - servlet - interceptor를 지나 코드 내부에서 작동하는 개념이다.
 
 실제 filter는 web.xml에 작성하며 interceptor는 spring-servlet설정에 추가한다.
 
