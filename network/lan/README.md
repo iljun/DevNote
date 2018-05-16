@@ -13,6 +13,8 @@ TCP/IP를 사용하지 않고 CSMA/CD 프토콜을 사용하는 것이다.
 
 우리나라의 90% 정도는 Ethernet방식을 사용한다.
 
+OSI 7계층에서 물리 계층의 신호와 배선, 데이터 링크 계층에서 MAC 패킷과 프로토콜의 형식을 정의한다.
+
 ### CSMA/CD (Carrier Sense Multiple Access/Collision Detection)
 Ethernet에서 통신을 하려면 지금 네트워크 자원이 사용중인지를 먼저 판단해야한다.
 
