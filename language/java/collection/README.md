@@ -18,7 +18,7 @@
     * HashMap : key - value형태로 저장되는 hashMap의 자료구조
     * HashTable : HashMap과 기능은 동일하지만 동기화가 구현되어있다.
     * TreeMap : key - value형태로 자료를 저장하지만 트리의 형태로 저장되는 자료구조
-        * Red-Black 트리를 기반으로 구현되어있다. Map은 key값에 의해 정렬된다. 이때 정렬기준은 제공해놓은 Comparator에 의해 정렬된다.
+        * Red-Black 트리를 기반으로 구현되어있다. Map은 key값에 의해 정렬된다. 이때 정렬기준은 제공해놓은 Comparable에 의해 정렬된다.
 
 ### TreeSet , TreeMap
 두 자료구조 모두 트리를 기반으로 구현되어있기 때문에, 정렬이 가능하다.
