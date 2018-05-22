@@ -125,6 +125,10 @@
 
 [return&jump](language/kotlin/return&jump/REAME.md)
 
+[properties&field](language/kotlin/properties&field/README.md)
+
+[function](language/kotlin/function/README.md)
+
 ##### FrameWork & Library
 
 [Angular](language/javascript/framework&library/Angular/README.md)

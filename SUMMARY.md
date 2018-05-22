@@ -70,6 +70,8 @@
         * [class](language/kotlin/class&inheritance/README.md)
         * [expression](language/kotlin/expression/README.md)
         * [return&jump](language/kotlin/return&jump/REAME.md)
+        * [properties&field](language/kotlin/properties&field/README.md)
+        * [function](language/kotlin/function/README.md)
 * [DataStructure]()
     * [linear]()
         * [Array](dataStructure/linear/array/README.md)

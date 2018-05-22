@@ -200,3 +200,62 @@ Abstract 키워드를 이용한다.
         override abstract fun f()
     }
 ```
+
+## data Class
+흔히 java에서 데이터 저장용 class를 생성하는 경우가 있다.
+
+이때 java에서는 getter/setter, hashcode/equals, toString등 Lombok을 이용하거나 직접 정의해야 하는 경우가있다.
+
+이 기능을 kotlin에서는 자동으로 지원해준다.
+
+바로 class 앞에 data를 붙여주게 된다면 
+
+data class가 필요한 기능들은 모두 자동으로 만들어준다.
+
+- constructor
+- getter/setter
+- hashcode/equals
+- toString
+- componentN() funcionts
+- copy() function
+
+#### componentN
+처음보는 신기한 기능이다.
+
+쉽게 N번째 값을 자유롭게 꺼낼수있는 방법이다.
+
+```
+    val id = user.component1()
+    val name = user.component2()
+```
+위와 같은 방식으로 편리하게 값을 꺼낼수있다.
+
+하지만 유지보수 관점에서는 좋은 기법인지는 정확히 모르겠다.
+
+#### copy
+java의 clone과 비슷한 개념이다.
+
+말그대로 복사를 하는 개념인데 clone과는 조금 다르게
+
+일부 프로퍼티를 변경할수 있고 나머지는 그대로 유지할수 있다.
+
+```
+    val user = User(1,"wonwoo") 
+    -> name이 wonwoo로 변경되고 나머지 필드는 그대로 유지된다.
+```
+
+
+## Object
+코틀린에서는 static한 함수가 존재하지 않는다.
+
+그것을 대체할수 있는 object라는 것을 지원해준다.
+
+```
+    object Utils{
+        fun sum(a: Int, b : Int) = a+b
+    }
+
+    Utils.sum(1,10)
+```
+이러한 방식으로 사용한다.
+
