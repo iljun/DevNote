@@ -13,8 +13,8 @@ HTTP 통신으로 데이터와 자료의 상태 정보를 클라이언트와 서
 - Resource(자원) : 처리되는 대상을 Resource라고 지칭한다. URI로 표현된다.
 - Method(행위) : 어떠한 자원이라도 일관되게 행위가 정의된다. HTTP Method인 GET,POST,PUT,DELETE로 행위가 결정된다.
 - Representation(표현) : HTTP Method와 URI만으로는 모든 내용을 표현할수 없다. 이때 정보부분을 표현하는것이 HTTP Body이다.
-### REST의 특징
 
+### REST의 특징
 - Uniform Interface : 리소스에 종류에 상관없이 동일한 API를 가진다. 이미지 처리나 문서 처리도 같은 API를 통해 이루어진다.
 - 독립적인 클라이언트와 서버 : 서버와 클라이언트는 독립적으로 존재한다.
 - 무상태(Stateless) : 요청간 클라이언트의 정보가 서버에 저장되어서는 안된다.

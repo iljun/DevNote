@@ -12,7 +12,9 @@ html,css,image 등 정적인 파일을 관리할때 성능이 뛰어나다.
 정적인 처리 이외로 SSL설정이나 로드밸런싱 설정이 가능하다.
 
 동작 프로세스
+
 1. 정적 컨텐츠 요청시 --> WebServer에서 바로 response
+
 2. 동적 컨텐츠 요청시 --> WAS로 Request를 넘겨주고 WAS의 Response를 받아 client로 Response
 
 ## WAS(Web Application Server)

@@ -115,6 +115,7 @@
     * [union](dataBase/union/README.md)
     * [in-memory](dataBase/in-memory/README.md)
     * [selectMechanism](dataBase/selectMechanism/README.md)
+    * [Replication](dataBase/replication/README.md)
 * [DesignPattern]()
     * [Factory Pattern](designPattern/Factory/README.md)
     * [singleTon Pattern](designPattern/singleTon/README.md)
