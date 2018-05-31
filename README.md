@@ -229,6 +229,8 @@
 
 [sqlInjection](dataBase/sqlInjection/README.md)
 
+[selectMechanism](dataBase/selectMechanism/README.md)
+
 ## Design Pattern
 
 [Factory Pattern](designPattern/Factory/README.md)
