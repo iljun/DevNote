@@ -12,6 +12,7 @@ TCP/IP 프로토콜을 이용해 데이터 전송 전에 상대방의 컴퓨터�
 
 3단계 : Client는 다시 서버에서 ACK요청을 보내고 Server는 Established상태로 변환후 서로 데이터를 주고 받는다.
 
+![image](../../images/3wayHandShake.jpg)
 
 # 4 way-handShake
 세션을 종료하기 위한 과정
@@ -23,6 +24,8 @@ TCP/IP 프로토콜을 이용해 데이터 전송 전에 상대방의 컴퓨터�
 3단계 : Server가 통신이 끝나면 연결이 종료되었다는 FIN 플래그를 Client에게 전송, 자신은 LAST_ACK 상태로 변한다.
 
 4단계 : Client는 확인했다는 ACK응답을 Server로 전송
+
+![image](../../images/4wayHandShake.jpg)
 
 ## 용어
 ```

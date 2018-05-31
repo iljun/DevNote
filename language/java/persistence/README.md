@@ -63,3 +63,40 @@ index값을 사용하게 된다면 테이블 구조가 변화했을때 기존 �
 
 ## @ManyToMany
 참조 Entity와 대상 Entity가 N 대 N 으로 매핑되는 경우
+
+
+
+그렇다면 Entity와 Table을 왜 나누어놨을까?
+
+Table은 DB에 테이블을 의미하지만 Entity는 클래스의 인스턴스가 엔티티임을 의미한다.(DB상에서 테이터로 관리하는 대상)
+
+Member라는 Table이 있을때 하나의 테이블에서 모든 데이터를 불러오게 코딩을 한다.
+
+하지만 언제나 모든 데이터를 사용할 필요가없을때 @Entity를 두개로 분리해서 코딩이 가능하다.
+
+# EntityManager
+엔티티를 관리하는 역할을 수행하는 클래스이다.
+
+내부에 Persistence Context라는걸 두어서 관리한다.
+
+Persistence Context는 관리하는 모든 엔티티 매니저가 초기화 및 종료되지 않는 한 엔티티를 영구히 저장하는 환경이다.
+
+EntityManager는 여러 스레드가 동시에 접근하면 동시성 문제가 생길수 있기 때문에 절대 공유하면 안된다.
+
+### SQL 저장소
+Persistence Context안에 SQL 저장소가 들어있다.
+
+트랜잭션이 일어나야 할때 커밋되기 직전가지 모든 쿼리문은 내부 SQL 저장소에 저장되고 
+
+커밋이 될때 모든 쿼리가 날라간다.
+
+만약 내부에서 오류가 난다면 애초에 쿼리를 보내지 않는다.
+
+# EntityManagerFactory
+EntityManager를 만드는 역할을 하는 객체이다.
+
+EntityMangerFactory는 여러 스레드가 공유해도 아무 상관이없다.
+
+단순한게 EntityManager를 만들어 내는 역할이기 때문이다.
+
+하지만 EntityManagerFactory는 비용이 비싼 객체이기 때문에 DB당 하나 밖에 사용하지 못한다.

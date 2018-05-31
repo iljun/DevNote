@@ -1,5 +1,5 @@
 # javaScript prototype
-Javascript에서는 Class의 개념이 없다.(최근 ES6에는 Class개념입 생겼다고 한다.)
+Javascript에서는 Class의 개념이 없다.(최근 ES6에는 Class개념이 생겼다고 한다.)
 
 Class의 개념이 없으니 상속이 불가능하며 객체지향적 개발이 불가능하다.
 
