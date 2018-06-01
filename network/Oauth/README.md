@@ -12,6 +12,8 @@ Session을 사용하지 않아 보안의 이점이 높아질것 같지만, Acces
 
 HMAC을 이용한 암호화방식 하나만 지원한다.
 
+클라이언트 ID와 비밀번호 암호화가 요구된다.
+
 ## Authentication vs Authorization
 인증과 인가의 차이이다.
 
@@ -152,3 +154,21 @@ JOSE헤더와 JWT Claim Set은 암호화가 아니라 단순하게 문자열을 
 JWT는 JOSE 헤더와 JWT Claim Set을 각각 인코딩한다음 .로 이어붙인다. 
 
 JOSE 헤더에 기술된 알고리즘으로 인코등을 하면 JWT 토큰의 signature를 만들게 된다.
+
+
+## OpenId vs OAuth
+OpenId와 OAuth도 인증을 위한것이고 Http프로토콜을 사용한다는 점에서는 동일하다.
+
+하지만 OpenId는 인증이 주 목적이며, OAuth는 인가가 주 목적이다.
+
+OpenId는 로그인과 같은 목적으로 사용하지만,
+
+OAuth는 사용자가 해당 API에 대한 접근 권한이 있는지를 판별하는 기준으로 사용한다.
+
+전혀 다른 개념이다.
+
+### OpenId 작동방법
+1. OpenId를 제공하는 곳에 가입후 Uri를 받는다.
+2. OpenId를 지원하는 사이트에 Uri를 통해 로그인을 한다.
+3. 해당 사이트는 OpenId를 발급한 사이트로 redirect를 진행하고 사용자는 인증을 진행한다.
+4. 인증이 완료된다면 해당 사이트에 인증이 되어 서비스를 사용할수 있다.
