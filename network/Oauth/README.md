@@ -76,26 +76,36 @@ client는 기본적으로 Confidential Client, public Client로 나뉜다.
     * Public Client : 브라우저기반 Application이나 모바일 Application같은 경우 client 증명서를 안전하게 보관할수없는 client를 의미 이러한 경우 보통 redirect_url을 이용한다.
     
 ##### GrantType
-Authorization Code Grant와 Implicit Grant를 제외하고는 대부분 3-legged OAuth가 아니다.
+Authorization Code Grant와 Implicit Grant를 제외하고는 대부분 3-legged OAuth가 아니다
 
 1.Authorization Code Grant(권한코드 발급 방식) : 
-웹서버에서 API를 호출하는 등의 시나리오에서 Confidentail Client가 사용하는 방법이다.
-public Client의 종류인 브라우저기반 Application이나 모바일 Application의 경우 사용한다.
+웹서버에서 API를 호출하는 등의 시나리오에서 Confidential Client가 사용하는 방법이다.
+confidential Client에 최적화 되어있는 인증 방식이다.
+redirect url 기반이기 때문에 redirect을 수신할수 있는 환경이어야 한다.
 로그인시 Url의 parameter로 response_type=code를 넘겨준다.
     
+![image](../../images/AuthorizationCode.jpg)
+
 2.Implicit Grant : 
 Public Client인 브라우저 기반의 Application이나 모바일 Application에서 이 방식을 사용하면 된다. 
 Client 증명서를 사용할 필요가 없으며 실제로 OAuth 2.0에서 가장 많이 사용되는 방식이다.
+refresh Token은 지원하지 않는다.
 로그인시에 페이지 URL에 response_type=token 라고 넘긴다.
+
+![image](../../images/ImplicitGrant.jpg)
 
 3.Password Credentials Grant : 
 이 방식은 2-legged방식이다. Client에 id/password를 저장해놓고 사용하는 방식이다.
 Client를 믿을수 없을때는 사용하기 부적합하다.
 로그인시 POST로 grant_type=password라고 넘긴다.
 
+![image](../../images/PasswordCredential.jpg)
+
 4.Client Credentials Grant : 
 application이 Confidential Client일떄 id와 secrect값을 사용해 인증하는 방식이다.
 로그인시 POST로 grant_type=client_credentials라고 넘긴다.
+
+![image](../../images/ClientCredentials.jpg)
 
 ## 작동 방법
 1. client는 Resource Owner에게 권한을 요청한다.
