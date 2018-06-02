@@ -120,7 +120,7 @@
 
 [class](language/java/class/README.md)
 
-[BigDecimal](language/java/BigDecimal)
+[BigDecimal](language/java/BigDecimal/README.md)
 
 #### JavaScript
 
