@@ -120,6 +120,8 @@
 
 [class](language/java/class/README.md)
 
+[BigDecimal](language/java/BigDecimal)
+
 #### JavaScript
 
 [Ajax](language/javascript/Ajax/README.md)
