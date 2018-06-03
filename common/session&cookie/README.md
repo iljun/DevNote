@@ -8,7 +8,7 @@
 #### session의 동작과정
  * 브라우저가 서버에 request를 전달
  * 서버는 request-header 의 필드인 cookie를 통해 session-id를 검색
- * session-id가 존재하지 않으면 session을 생성해 response-header에 session-id를 추가하어 리턴
+ * session-id가 존재하지 않으면 session을 생성해 response-header에 session-id를 추가하여 리턴
  * 브라우저가 종료되거나 session의 만료시간에 도달하지 않는이상 session-id를 통해 session에 접근한다.
  
 ## Cookie

@@ -6,7 +6,7 @@
 아직 어떻게 적용할지는 잘 모르겠다.
 
 ## Kafka 구성요소
-producer, comsumer, broker로 구성되어있다.
+producer, consumer, broker로 구성되어있다.
 
 producer는 메세지를 broker에게 전달하는 역할이며 ,
 
