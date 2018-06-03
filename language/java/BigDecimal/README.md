@@ -36,3 +36,14 @@ BigInteger는 이진수 계산이 아닌 십진수 소수 계산을 제공한다
 BigDecimal과 BigInteger는 산술연산자를 이용한 연산은 지원하지 않지만 Method를 이용해 계산을 할수있다.
 
 BigDecimal이 실수연산에 더 적합한 이유는 반올림을 확실히 제어할수 있다.
+
+## 유의사항
+BigDecimal도 나누어지지 않는 수를 나누었을대 ArithmeticException이 발생한다.
+
+이러한 경우 계산할 소수점의 자리와 끝수를 버릴것인가 올릴 것인가를 확실히 명시해줘야한다.
+
+
+## Math class 와 StrictMath class
+java에서 사칙연산 이외로 제곱근이나 삼각 함수 등의 다양한 계산을 하는 Class는 Math와 StrictMath가 존재한다.
+
+두 Class의 차이점은 Math는 실행 환경의 연산처리를 이용해 결과를 반환하며, StrictMath는 플랫폼의 자바 환경에서 동일환 결과를 반환한다.
