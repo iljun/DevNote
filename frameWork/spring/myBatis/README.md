@@ -47,3 +47,16 @@ second level cache는 mapper 단위로 캐시결과값을 저장한다.
 이러한 경우에는 cache를 일정 시간마다 비워주는 설정을 해주면 효과적이다.
 
 언제나 데이터가 일치하지 않을수도 있지만 cache비우는 시간을 짧게한다면 최대한 줄일수 있다.
+
+### sqlSession
+SqlSession은 실제 SQL문을 호출하는 역할을 담당한다.
+
+### sqlSessionFactory
+SqlSession을 생성하는 Factory역할을 담당한다.
+
+### sqlSessionTemplate
+myBatis 스프링 연동 모듈에 핵심역할을 담당한다.
+
+sqlSession을 구현하고 코드에서 SqlSession을 대체한다.
+
+쓰레드에 안전하며 여러개의 DAO나 Mapper에서 공유한다.
