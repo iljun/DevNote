@@ -27,6 +27,7 @@
     * [개발자의센스](common/sense/README.md)
     * [searchEngine](common/searchEngine/README.md)
     * [JIT](common/JIT/README.md)
+    * [Apache Kafka](common/kafka/README.md)
 * [Language]()
     * [Java]()
         * [advantages & disadvantages](language/java/advantagesAndDisadvantages/README.md)

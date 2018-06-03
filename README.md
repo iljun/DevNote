@@ -54,6 +54,8 @@
 
 [JIT](common/JIT/README.md)
 
+[Apache Kafka](common/kafka/README.md)
+
 ## Language
 
 #### Java
