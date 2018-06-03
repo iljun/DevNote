@@ -19,6 +19,7 @@ Model과 View의 분리가 쉽지않다.
 
 ## MVC1 vs MVC2
 MVC1
+
 ![image](../../images/MVC1.jpg)
 ```
     웹브라우저의 request를 JSP페이지가 전부 처리하는것
@@ -27,6 +28,7 @@ MVC1
 ```    
 
 MVC2
+
 ![image](../../images/MVC2.jpg)
 ```
     MVC1 구조와는 다르게 웹브라우저의 Request를 Servlet이 받는다.
