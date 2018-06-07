@@ -7,10 +7,10 @@
 
 2. 설정
 
-```act.load("bean");
-
-
-act.refresh();```
+```
+act.load("bean"); 
+act.refresh();
+```
 
 3. 사용
 
