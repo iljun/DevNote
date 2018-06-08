@@ -134,6 +134,8 @@
 
 [prototype](language/javascript/prototype/README.md)
 
+[callback](language/javascript/callback/README.md)
+
 #### kotlin
 [BasicType](language/kotlin/basicType/README.md)
 
