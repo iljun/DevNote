@@ -78,3 +78,21 @@ CLASSPATH에 정의되거나 JVM 옵션에서 지정된 클래스들이 로딩�
 
 ### 사용자 정의 클래스로더
 애플리케이션 내부에서 사용자가 코드로 생성해 사용하는 클래스 로더이다.
+
+## GC Algorithm
+1. Serial GC
+    - old 영역에서는 mark-sweep-compact라는 알고리즘을 사용한다.
+        - mark : old영역에서 살아있는 객체를 식별한다.
+        - sweep : heap의 앞부분부터 살아있는 객체만 남긴다.
+        - compact : 각 객체들이 연속되게 쌓이도록 힙의 가장 앞부분부터 채운다.
+    - 적은 메모리와 CPU코어 갯수가 적을때 사용한다.
+
+2. Parallel GC
+    - Serial GC와 작동방법은 같으나 GC를 처리하는 쓰레드가 여러개이다.
+    
+3. Parallel Old GC
+    - Parallel GC와는 Old영역의 GC알고리즘만 다르다.
+        - Mark-Summary-Compactionf 단계를 거친다.
+        
+4. CMS GC
+    - 힙 영역이 클경우 적합한 알고리즘이다.
