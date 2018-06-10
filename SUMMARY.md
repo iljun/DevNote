@@ -114,7 +114,7 @@
     * [join](dataBase/join/README.md)
     * [Transaction](dataBase/transaction/README.md)
     * [NoSql](dataBase/noSql/README.md)
-    * [Sharding](dataBase/sharding/README.md)
+    * [partition](dataBase/partition/README.md)
     * [groupBy](dataBase/groupBy/README.md)
     * [union](dataBase/union/README.md)
     * [in-memory](dataBase/in-memory/README.md)

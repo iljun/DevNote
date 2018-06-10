@@ -227,7 +227,7 @@
 
 [NoSql](dataBase/noSql/README.md)
 
-[Sharding](dataBase/sharding/README.md)
+[partition](dataBase/partition/README.md)
 
 [groupBy](dataBase/groupBy/README.md)
 
