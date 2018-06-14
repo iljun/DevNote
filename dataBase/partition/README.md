@@ -16,6 +16,7 @@ nStore, MongoDB는 데이터베이스 자체에서 샤딩기능을 제공하기�
 
 원래 하나의 테이블을 나누어 다른 DB에 저장하는 방식이다.
 
+
 ## 수평분할(Horizontal Partitioning) == sharding
 연속된 key값이 아닌 특정한 category와 같은 종류에 따라 데이터를 수평으로 분리하는것 
 
