@@ -241,6 +241,8 @@
 
 [Replication](dataBase/replication/README.md)
 
+[ConnectionPool](dataBase/connectionPool/README.md)
+
 ## Design Pattern
 
 [Factory Pattern](designPattern/Factory/README.md)
