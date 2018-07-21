@@ -290,6 +290,8 @@
 
 [Oauth](network/Oauth/README.md)
 
+[WebSocket](network/webSocket/README.md)
+
 ## OS
 [OS](os/README.md)
 
