@@ -367,3 +367,8 @@
 
 [Git Flow](etc/gitFlow/README.md)
 
+## AMQP
+[AMQP](AMQP/README.md)
+
+## RabbitMq
+[RabbitMq](RabbitMq/README.md)

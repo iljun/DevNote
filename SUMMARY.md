@@ -184,3 +184,6 @@
     * [CORS & SOP](etc/cors&etc/README.md)
     * [git](etc/git/README.md)
     * [gitFlow](etc/gitFlow/README.md)
+* [AMQP](AMQP/README.md)
+* [RabbitMq](RabbitMq/README.md)
+  
